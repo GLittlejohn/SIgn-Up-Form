@@ -1,0 +1,12 @@
+@font-face {
+    font-family: my-font;
+    src: url(.font/Norse-Bold.otf);
+}
+.heading {
+    font-family: my-font, sans-serif;
+    color: red;
+}
+
+img {
+    width: 20vw;
+}
