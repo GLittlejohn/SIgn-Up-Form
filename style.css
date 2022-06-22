@@ -2,11 +2,57 @@
     font-family: my-font;
     src: url(.font/Norse-Bold.otf);
 }
-.heading {
+
+* {
     font-family: my-font, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.picture {
+    display: flex;
+    width: 40vw;
+    height: 95vh;
+    margin: 1% 1% 1% 1%;
+    align-content: center;
+    justify-content: center;
+    background: url(img/background2.jpeg);
+    background-size: cover;
+}
+
+.logo-container {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.rightside, form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+}
+
+.form_subtitle {
+    font-size: 0.8rem;
+    font-weight: 700;
     color: red;
 }
 
-img {
-    width: 20vw;
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
 }
