@@ -14,13 +14,14 @@
 
 .picture {
     display: flex;
-    width: 40vw;
+    min-width: 40vw;
     height: 95vh;
     margin: 1% 1% 1% 1%;
     align-content: center;
     justify-content: center;
     background: url(img/background2.jpeg);
     background-size: cover;
+    background-position: center;
 }
 
 .logo-container {
@@ -35,7 +36,7 @@
     height: 8vh;
 }
 
-.rightside, form {
+.rightside {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -45,14 +46,30 @@
     display: flex;
 }
 
+.form_title {
+    width: 100%;
+    margin-bottom: 1%;
+}
 .form_subtitle {
     font-size: 0.8rem;
     font-weight: 700;
     color: red;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.form_right {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
 }
 
 .input {
     display: flex;
     flex-flow: column wrap;
     width: 40%;
+}
+
+.button {
+    width: 20%
 }
