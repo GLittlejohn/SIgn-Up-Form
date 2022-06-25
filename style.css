@@ -1,10 +1,10 @@
 @font-face {
     font-family: my-font;
-    src: url(.font/Norse-Bold.otf);
+    src: url(font/Norse-Bold.otf);
 }
 
 * {
-    font-family: my-font, sans-serif;
+    font-family: sans-serif, my-font;
 }
 
 .content {
@@ -109,4 +109,8 @@ button {
 .login {
     display: flex;
     padding-left: 2vw;
+}
+
+a {
+    color:rgb(33, 193, 196)
 }
