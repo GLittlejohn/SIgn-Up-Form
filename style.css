@@ -98,6 +98,12 @@
     padding-left: 2vw;
 }
 
+button:hover {
+    outline: 0;
+    box-shadow: inset 0px 0.8px 1px -0.25px rgba(255, 255, 255, 0.2),
+      0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgb(33, 193, 196, 0.5);
+}
+
 button {
     font-size: 1.2em;
     font-weight: 700;
@@ -114,3 +120,15 @@ button {
 a {
     color:rgb(33, 193, 196)
 }
+
+.error {
+    border: 2px solid red;
+  }
+
+.errorMessage {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+    margin-top: 2vh;
+    padding-left: 2vw;
+  }
